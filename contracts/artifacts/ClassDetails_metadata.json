@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numberOfStudent",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_year",
+						"type": "uint256"
+					}
+				],
+				"name": "setClass",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "numberOfStudent",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "year",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct ClassDetails.Class",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AdvancedContract.sol": "ClassDetails"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AdvancedContract.sol": {
+			"keccak256": "0x3e695338c3e6d0abb767552b0d7e695a57201da78d8f2084497d8a53a9e59db5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3e513640a958507a81e8bbe464f9526d6af1c74325c69444ddf9aa67ec2f3006",
+				"dweb:/ipfs/QmdULkKqd65mhfUkoX692XgbhD8tADzQxnSwe7Qk22ExYC"
+			]
+		}
+	},
+	"version": 1
+}
