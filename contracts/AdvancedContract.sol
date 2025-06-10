@@ -10,6 +10,7 @@ contract AdvancedContract {
         className = _name;
         numberOfStudents = _numberOfStudents;
         year = _year;
+        
     }
 }
 
