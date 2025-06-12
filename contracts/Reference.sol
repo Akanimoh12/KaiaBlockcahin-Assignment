@@ -47,5 +47,5 @@ contract Reference {
 }
 
 contract Complex is Reference {
-
+    
 }

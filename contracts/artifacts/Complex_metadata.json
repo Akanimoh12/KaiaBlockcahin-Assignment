@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -148,7 +143,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Reference.sol": "Reference"
+			"contracts/Reference.sol": "Complex"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
