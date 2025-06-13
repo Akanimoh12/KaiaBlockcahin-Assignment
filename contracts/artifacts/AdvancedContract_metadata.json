@@ -6,6 +6,31 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "className",
+						"type": "string"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "numberOfStudents",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					}
+				],
+				"name": "Set",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "className",
 				"outputs": [
@@ -96,11 +121,11 @@
 	},
 	"sources": {
 		"contracts/AdvancedContract.sol": {
-			"keccak256": "0x5b91a3723feca2479ad09443947f772af2951147383589452fbbbeafa7765f30",
+			"keccak256": "0xf1798d659ef6ad0509a66f50c7c23686aaae7b5a4f3ad2101929627d64af7a53",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://85047449636a43e814649612852baeb73f7eb763f5bb7e639f2eb909de7c769f",
-				"dweb:/ipfs/Qma5Ytuyez57XGW3QLJi65C5SCWNJh56ZAEp6c2CXHgyb5"
+				"bzz-raw://2422b2e9c7f3cb7725169a47ebd5ec85e8c799aa4e9f8c359bdf18a4914fec02",
+				"dweb:/ipfs/QmeCnUFNSh9F8XdcYt369Xdv2BaGEmvwaKo714jvKWFQcx"
 			]
 		}
 	},
