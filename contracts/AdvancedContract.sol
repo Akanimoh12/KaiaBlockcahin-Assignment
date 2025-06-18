@@ -20,19 +20,20 @@ contract AdvancedContract {
 }
 
 
-// contract ClassDetails {
+// using struct
+contract ClassDetails {
 
-//     struct Class {
-//         string name;
-//         uint256 numberOfStudent;
-//         uint256 year;
-//     }
+    struct Class {
+        string name;
+        uint256 numberOfStudent;
+        uint256 year;
+    }
     
-//     function setClass(string memory _name, uint256 _numberOfStudent, uint256 _year) public pure returns (Class memory) {
-//         return Class({name: _name, numberOfStudent: _numberOfStudent, year: _year});
-//     }
+    function setClass(string memory _name, uint256 _numberOfStudent, uint256 _year) public pure returns (Class memory) {
+        return Class({name: _name, numberOfStudent: _numberOfStudent, year: _year});
+    }
 
    
-// }
+}
 
 
